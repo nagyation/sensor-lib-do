@@ -20,8 +20,8 @@
 
 #define MAGIC_NUMBER_DEFAULT 0x61
 #define ZERO_SHIFT_DEFUALT 0
-#define SLOPE_DEFAULT 40.26
-#define DO_DEFAULT 14.62
+#define SLOPE_DEFAULT 40.26f
+#define DO_DEFAULT 14.62f
 
 static lib_do_temperature_t temperature = 20;
 static lib_do_pressure_t pressure = 760;
