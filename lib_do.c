@@ -14,7 +14,11 @@
 
 
 #include "lib_do.h"
+#ifdef TEST
+#include "lib_do_config_test.h"
+#else
 #include "lib_do_config.h"
+#endif
 
 #include <math.h>
 
