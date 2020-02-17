@@ -5,6 +5,7 @@ node {
         sh 'ceedling upgrade test_suite' // prepare test_suite insiders
     }
     
+    
     stage('Unit Test') {
         dir("test_suite") {
             sh 'ceedling'
